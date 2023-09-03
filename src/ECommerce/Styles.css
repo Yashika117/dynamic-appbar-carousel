@@ -1,0 +1,85 @@
+.toolbar {
+    background-color: black;
+    height: '5rem';
+}
+
+.toolbarGrid {
+    display: 'flex';
+    align-items: 'center';
+}
+
+.gridContainer {
+    display: 'flex';
+    justify-content: 'space-around'
+}
+
+.button {
+    color: white;
+}
+
+.gridImage {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'right'
+}
+
+.gridDiv {
+    display: 'flex';
+    align-content: 'center';
+    justify-content: 'right'
+}
+
+.gridDiv1 {
+    position: 'relative';
+    left: '120px';
+    top: '25px';
+    overflow: 'hidden';
+    border-radius: '10px';
+}
+
+.gridDiv2 {
+    position: 'relative';
+    left: '80px';
+    overflow: 'hidden';
+    border-radius: '13px';
+}
+
+.image1 {
+    border-radius: '10px'
+}
+
+.mainImage {
+    position: 'relative';
+    text-align: 'center';
+    color: 'white';
+    overflow: 'hidden';
+    border-radius: '15px';
+    z-index: 1000
+}
+
+.mainImagediv {
+    height: '35px';
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    position: 'absolute';
+    top: '95%';
+    left: '50%';
+    transform: 'translate(-50%, -50%)';
+    width: '100%';
+    background-color: 'rgba(0,0,0,0.4)';
+}
+
+.thirdGrid {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'left';
+}
+
+.hello {
+    background-color: blue;
+}
+
+#searchtextfield {
+    color: white !important;
+}
