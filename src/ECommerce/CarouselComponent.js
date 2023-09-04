@@ -36,38 +36,38 @@ const CarouselComponent = (props) => {
     //     setCurrentIndex(index);
     // };
     const getImage = (carouselLocation) => {
-        if (carouselLocation == 'first') {
-            if (currentIndex == 0) {
+        if (carouselLocation === 'first') {
+            if (currentIndex === 0) {
                 return featuredProducts?.[featuredProducts?.length - 2]?.imageUrl;
             }
-            if (currentIndex == 1) {
+            if (currentIndex === 1) {
                 return featuredProducts?.[featuredProducts?.length - 1]?.imageUrl;
             }
             else {
                 return featuredProducts?.[currentIndex - 2]?.imageUrl;
             }
         }
-        else if (carouselLocation == 'second') {
-            if (currentIndex == 0) {
+        else if (carouselLocation === 'second') {
+            if (currentIndex === 0) {
                 return featuredProducts?.[featuredProducts?.length - 1]?.imageUrl;
             }
             else {
                 return featuredProducts?.[currentIndex - 1]?.imageUrl;
             }
         }
-        else if (carouselLocation == 'fourth') {
-            if (currentIndex == featuredProducts.length - 1) {
+        else if (carouselLocation === 'fourth') {
+            if (currentIndex === featuredProducts.length - 1) {
                 return featuredProducts?.[0]?.imageUrl;
             }
             else {
                 return featuredProducts?.[currentIndex + 1]?.imageUrl;
             }
         }
-        else if (carouselLocation == 'fifth') {
-            if (currentIndex == featuredProducts.length - 1) {
+        else if (carouselLocation === 'fifth') {
+            if (currentIndex === featuredProducts.length - 1) {
                 return featuredProducts?.[1]?.imageUrl;
             }
-            else if (currentIndex == featuredProducts.length - 2) {
+            else if (currentIndex === featuredProducts.length - 2) {
                 return featuredProducts?.[0]?.imageUrl;
             }
             else {
