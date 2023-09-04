@@ -80,6 +80,7 @@
     background-color: blue;
 }
 
-#searchtextfield {
+#searchtextfield::placeholder {
     color: white !important;
+    opacity: 1;
 }
