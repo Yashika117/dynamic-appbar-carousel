@@ -32,9 +32,9 @@ const CarouselComponent = (props) => {
     const handlePrevious = () => {
         setCurrentIndex(currentIndex - 1 < 0 ? featuredProducts.length - 1 : currentIndex - 1);
     };
-    const handleDotClick = (index) => {
-        setCurrentIndex(index);
-    };
+    // const handleDotClick = (index) => {
+    //     setCurrentIndex(index);
+    // };
     const getImage = (carouselLocation) => {
         if (carouselLocation == 'first') {
             if (currentIndex == 0) {
