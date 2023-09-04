@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -102,7 +102,7 @@ const HomePage = (props) => {
         setMenuOpen(null);
     };
     const isSmallScreen = useMediaQuery('(max-width:900px)');
-    const isVerySmallScreen = useMediaQuery('(max-width:600px)');
+    //const isVerySmallScreen = useMediaQuery('(max-width:600px)');
 
     return (
         <>
