@@ -135,8 +135,8 @@ const HomePage = (props) => {
                                 </Button>
                                 <Menu
                                     id="simple-menu"
-                                    anchorEl={menuOpen}
-                                    keepMounted
+                                    anchorEl={menuOpen} //sets the position of the menu
+                                    // keepMounted
                                     open={Boolean(menuOpen)}
                                     onClose={handleClose}
                                     style={{ top: '3rem' }}
@@ -184,8 +184,8 @@ const HomePage = (props) => {
                                     </Button>
                                     <Menu
                                         id="simple-menu"
-                                        anchorEl={menuOpen}
-                                        keepMounted
+                                        anchorEl={menuOpen} //sets the position of the menu
+                                        //keepMounted
                                         open={Boolean(menuOpen)}
                                         onClose={handleClose}
                                         style={{ top: '3rem' }}
